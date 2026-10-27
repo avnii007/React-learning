@@ -3,12 +3,14 @@ import React from 'react'
 import Greet from './Greet'
 
 import State from './State';
+import Event from './Event';
 function App() {
   return (
     <div>
       <h1>Welcome to React</h1>
 
       <State />
+      <Event />
     </div>
 
    
